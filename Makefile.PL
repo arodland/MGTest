@@ -9,6 +9,7 @@ requires 'Catalyst::Runtime' => '5.7014';
 requires 'Catalyst::Plugin::ConfigLoader';
 requires 'Catalyst::Plugin::Static::Simple';
 requires 'Catalyst::Action::RenderView';
+requires 'Catalyst::Engine::PSGI';
 requires 'WWW::MenuGrinder';
 requires 'Catalyst::Model::MenuGrinder';
 requires 'Catalyst::View::TT';
